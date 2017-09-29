@@ -6459,6 +6459,12 @@ h3 {
   overflow: hidden;
   -webkit-border-radius: 20px;
           border-radius: 20px; }
+  .white-popup ul {
+    list-style-type: none;
+    font-size: 1.25em;
+    margin: 0;
+    padding: 0;
+    margin-top: 5%; }
 
 h4 {
   font-size: 1.5em;
@@ -6467,7 +6473,8 @@ h4 {
   font-weight: 300; }
 
 .magnific {
-  font-size: 1.25em; }
+  font-size: 1.25em;
+  padding: 10px; }
 
 .cover {
   position: relative;
