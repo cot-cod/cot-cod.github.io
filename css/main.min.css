@@ -6305,16 +6305,17 @@ h3 {
       display: inline-block;
       width: 105px;
       height: 35px;
-      text-align: center; }
+      text-align: center;
+      -webkit-border-radius: 20px;
+              border-radius: 20px; }
       .menu ul li:hover {
-        -webkit-border-radius: 20px;
-                border-radius: 20px;
         text-decoration: none;
         background-color: #7cc576;
-        -webkit-transition: 0.2s ease-in-out;
-        -o-transition: 0.2s ease-in-out;
-        transition: 0.2s ease-in-out; }
+        -webkit-transition: 0.3s ease-in-out;
+        -o-transition: 0.3s ease-in-out;
+        transition: 0.3s ease-in-out; }
       .menu ul li:active {
+        background-color: #6bbd64;
         -webkit-transform: translateY(3%);
             -ms-transform: translateY(3%);
                 transform: translateY(3%); }
