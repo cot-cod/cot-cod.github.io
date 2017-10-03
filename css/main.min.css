@@ -6163,12 +6163,6 @@ body textarea:required:valid {
 a {
   outline: none !important; }
 
-.section h2 {
-  font-size: 2.8125em;
-  color: #7cc576;
-  text-align: center;
-  font-weight: 300; }
-
 .before, body.ishome .site-header::before {
   content: '';
   width: 100%;
@@ -6439,9 +6433,12 @@ h3 {
   width: 100%;
   height: 100%;
   z-index: 1042;
-  overflow-x: visible;
+  overflow-x: hidden;
   position: fixed;
   background: #0b0b0b;
+  opacity: 0.2; }
+
+.mfp-bg {
   opacity: 0.2; }
 
 .mfp-wrap {
@@ -6469,9 +6466,10 @@ h3 {
   position: relative;
   background: #FFF;
   padding: 20px;
+  width: auto;
   max-width: 500px;
   margin: 20px auto;
-  overflow: hidden;
+  overflow: auto;
   -webkit-border-radius: 20px;
           border-radius: 20px; }
   .white-popup ul {
@@ -6620,7 +6618,8 @@ h4 {
   border: 1px solid #757575;
   -webkit-border-radius: 50px;
           border-radius: 50px;
-  background-color: #bdbdbd; }
+  background-color: #bdbdbd;
+  margin-top: 15px; }
 
 .owl-prev, .owl-next {
   position: absolute;
@@ -6639,13 +6638,12 @@ h4 {
   width: 100%;
   display: inline-block; }
   .contacts .contacts__address {
-    width: 220px;
     text-align: left;
     float: left; }
 
-p {
+#preim p {
   padding: 0;
-  margin: 0; }
+  margin-top: 50px; }
 
 .fa-map-marker {
   color: #ff3d00;
@@ -6653,6 +6651,11 @@ p {
   float: left;
   height: 100%;
   margin-right: 10px; }
+
+.contacts__p {
+  padding: 0;
+  margin: 0;
+  font-size: 17px; }
 
 .phone-bottom {
   font-size: 1.5em;
@@ -6670,6 +6673,42 @@ p {
     color: #757575;
     vertical-align: middle;
     font-size: 24px; }
+
+.fa-quote-right {
+  opacity: 0.5; }
+
+.fa-quote-left {
+  float: right;
+  opacity: 0.5; }
+
+.top-text-p {
+  font-size: 1.5em;
+  font-weight: 300;
+  line-height: 1.4;
+  margin: 0;
+  margin-left: 50px; }
+
+.skills {
+  margin-top: 50px;
+  font-size: 1.0625em; }
+
+h5 {
+  font-size: 1.25em;
+  font-weight: 300;
+  color: #7cc576;
+  text-align: center; }
+
+.education {
+  margin-bottom: 100px; }
+  .education li {
+    font-size: 1.0625em; }
+
+.footer {
+  background-color: #252525; }
+  .footer img {
+    margin: 10px 0 10px 10px; }
+  .footer .copy {
+    margin-top: 50px; }
 
 .top {
   position: fixed;

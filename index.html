@@ -24,11 +24,20 @@
 	<!-- iOS Safari -->
 	<meta name="apple-mobile-web-app-status-bar-style" content="#969696">
 
-	<style>body { opacity: 0; overflow-x: hidden; margin: 0!importent; } html { background-color: #333; } </style>
+	<style>body { opacity: 0; } html { background-color: #333; /*margin-right: 0px!important;*/ /*-webkit-text-size-adjust: none; overflow-y: scroll!important;*/ } </style>
 
 </head>
 
 <body class="ishome">
+
+	<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/uk_UA/sdk.js#xfbml=1&version=v2.10";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
 	<div class="preloader"><div class="pulse"></div></div>
 		
@@ -93,7 +102,7 @@
 
 		<section id="uslugi">
 			<div class="container">
-				<h2 class="wow fadeInUp">Услуги</h2>
+				<h2 class="wow fadeInUp" data-wow-offset="100">Услуги</h2>
 				<div class="row">
 					<div class="col-md-4">
 						<div class="massage_class massage1 wow fadeIn" data-wow-offset="100">
@@ -314,7 +323,7 @@
 					</div>
 					<div class="col-md-8">
 						<div class="massage_nana massage1 wow fadeIn" data-wow-offset="100">
-							<img src="img/11.png" alt="Массаж+няня">
+							<img class="img-responsive" src="img/11.png" alt="Массаж+няня">
 							<div class="zagolovok">
 								<h3>Массаж + <br> няня</h3>
 							</div>
@@ -341,8 +350,8 @@
 					<div class="row">
 						<div class="col-md-5 col-md-offset-1">
 							<div class="podser">
-								<img class="pod1" src="img/podarok2.png" alt="Подарочный сертификат">
-								<img class="pod2" src="img/podarok1.png" alt="Подарочный сертификат">
+								<img class="pod1 img-responsive" src="img/podarok2.png" alt="Подарочный сертификат">
+								<img class="pod2 img-responsive" src="img/podarok1.png" alt="Подарочный сертификат">
 							</div>
 						</div>
 						<div class="col-md-6">
@@ -362,7 +371,7 @@
 							<div class="preim__item">
 								<div class="preim__item1">
 									<img src="img/icons8-1.png" alt="crown">
-									<p>Индивидуальный подход</p>
+									<p>Индивидуальный <br> подход</p>
 								</div>
 							</div>
 						</div>
@@ -370,7 +379,7 @@
 							<div class="preim__item">
 								<div class="preim__item2">
 									<img src="img/icons8-2.png" alt="crown">
-									<p>Построение долгосрочных отношений</p>
+									<p>Построение <br> долгосрочных <br> отношений</p>
 								</div>
 							</div>
 						</div>
@@ -378,7 +387,7 @@
 							<div class="preim__item">
 								<div class="preim__item3">
 									<img src="img/icons8-3.png" alt="crown">
-									<p>Скидки постоянным клиентам</p>
+									<p>Скидки <br> постоянным <br> клиентам</p>
 								</div>
 							</div>
 						</div>
@@ -386,7 +395,7 @@
 							<div class="preim__item">
 								<div class="preim__item4">
 									<img src="img/icons8-4.png" alt="crown">
-									<p>Возможность выезда к клиенту</p>
+									<p>Возможность <br> выезда к клиенту</p>
 								</div>
 							</div>
 						</div>
@@ -407,23 +416,23 @@
 								<a href="https://www.instagram.com/vladimir_massage_kiev/?hl=ru" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
 								</div>	
 									<div class="zoom-gallery owl-carousel owl-theme">
-										<a href="img/sert/1s.jpg" class="item magnificPopup"><img src="img/thumb/1sm.jpg" alt="certificate"></a>
-										<a href="img/sert/2s.jpg" class="item magnificPopup"><img src="img/thumb/2sm.jpg" alt="certificate"></a>
-										<a href="img/sert/3s.jpg" class="item magnificPopup"><img src="img/thumb/3sm.jpg" alt="certificate"></a>
-										<a href="img/sert/4s.jpg" class="item magnificPopup"><img src="img/thumb/4sm.jpg" alt="certificate"></a>
-										<a href="img/sert/5s.jpg" class="item magnificPopup"><img src="img/thumb/5sm.jpg" alt="certificate"></a>
-										<a href="img/sert/6s.jpg" class="item magnificPopup"><img src="img/thumb/6sm.jpg" alt="certificate"></a>
-										<a href="img/sert/7s.jpg" class="item magnificPopup"><img src="img/thumb/7sm.jpg" alt="certificate"></a>
-										<a href="img/sert/8s.jpg" class="item magnificPopup"><img src="img/thumb/8sm.jpg" alt="certificate"></a>
-										<a href="img/sert/9s.jpg" class="item magnificPopup"><img src="img/thumb/9sm.jpg" alt="certificate"></a>
+										<a href="img/sert/1s.jpg" class="item magnificPopup img-responsive"><img src="img/thumb/1sm.jpg" alt="certificate"></a>
+										<a href="img/sert/2s.jpg" class="item magnificPopup img-responsive"><img src="img/thumb/2sm.jpg" alt="certificate"></a>
+										<a href="img/sert/3s.jpg" class="item magnificPopup img-responsive"><img src="img/thumb/3sm.jpg" alt="certificate"></a>
+										<a href="img/sert/4s.jpg" class="item magnificPopup img-responsive"><img src="img/thumb/4sm.jpg" alt="certificate"></a>
+										<a href="img/sert/5s.jpg" class="item magnificPopup img-responsive"><img src="img/thumb/5sm.jpg" alt="certificate"></a>
+										<a href="img/sert/6s.jpg" class="item magnificPopup img-responsive"><img src="img/thumb/6sm.jpg" alt="certificate"></a>
+										<a href="img/sert/7s.jpg" class="item magnificPopup img-responsive"><img src="img/thumb/7sm.jpg" alt="certificate"></a>
+										<a href="img/sert/8s.jpg" class="item magnificPopup img-responsive"><img src="img/thumb/8sm.jpg" alt="certificate"></a>
+										<a href="img/sert/9s.jpg" class="item magnificPopup img-responsive"><img src="img/thumb/9sm.jpg" alt="certificate"></a>
 									</div>
-								<h4>Контакты:</h4>
+								<h5>Контакты:</h5>
 								<div class="contacts">
 									<div class="marker">
 										<i class="fa fa-map-marker" aria-hidden="true"></i>
 									</div>
 									<div class="contacts__address">
-										<p>г.Киев <br> ул.Тростянецкая <br> Дарницкий район</p>
+										<p class="contacts__p">г.Киев <br> ул.Тростянецкая <br> Дарницкий район</p>
 									</div>
 									<div class="phone-bottom">
 										<i class="fa fa-phone"></i>
@@ -433,13 +442,77 @@
 								</div>
 							</div>
 						</div>
+						<div class="col-md-6">
+							<div class="right">
+								<div class="top-text">
+									<i class="fa fa-quote-right" aria-hidden="true"></i>
+									<p class="top-text-p">
+										Меня зовут Владимир Гладкий. <br> С помощью массажа и других оздоровительных процедур я делаю так, чтоб люди стали здоровее и красивее.
+									</p>
+									<i class="fa fa-quote-left" aria-hidden="true"></i>
+								</div>
+								<div class="skills">
+									<ul>
+										<li>
+											помощь при различных болевых синдромах (поясничные, головные, суставные, мышечные, боли на погоду и т.д.)
+										</li>
+										<li>
+											общее оздоровление организма (улучшение физического и эмоционального состояния)
+										</li>
+										<li>
+											укрепление тела (массаж при правильном выполнении является пассивной физической нагрузкой)
+										</li>
+										<li>
+											эстетика тела (лишний вес, отёчности, целлюлит)
+										</li>
+										<li>
+											релакс (физическое и психическое расслабление)
+										</li>
+									</ul>
+								</div>
+								<div class="education">
+									<h5>Образование:</h5>
+									<ul>
+										<li>
+											Национальный университет физического воспитания и спорта Украины (физическая реабилитация)
+										</li>
+										<li>
+											Школа массажа «Партнер Плюс»
+										</li>
+										<li>
+											Школа современного массажа «Инкорте»
+										</li>
+										<li>
+											Школа восстановительной и спортивной медицины «Реабилитолог»
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
 					</div>
 			</div>
+		</section>
+		<section id="facebook">
+			<div class="fb-comments" data-href="https://cot-cod.github.io" data-width="100%" data-numposts="5"></div>
 		</section>
 	</div>
 
 	<div id="my-footer">
-		
+		<div class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-1 col-md-offset-4">
+						<div class="copy">&#169;2017</div>
+					</div>
+					<div class="col-md-2">
+						<img class="logo-footer" src="img/Logo2.png" alt="Logo">
+					</div>
+					<div class="col-md-5">
+						<div class="copy">Все права защищены</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 
 	<div class="top" title="Наверх"><i class="fa fa-angle-double-up"></i></div>
