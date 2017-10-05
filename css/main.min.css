@@ -7494,8 +7494,7 @@ body {
       background-color: #000;
       opacity: .45; }
     body.ishome .site-header .logo-top {
-      margin: 10px 0 0 0;
-      text-align: left; }
+      margin: 10px 0 0 0; }
 
 section, header {
   position: relative;
@@ -7541,12 +7540,12 @@ h3 {
               border-radius: 20px; }
       #menu ul li:hover {
         text-decoration: none;
-        background-color: #FFFF00;
+        background-color: #7cc576;
         -webkit-transition: 0.3s ease-in-out;
         -o-transition: 0.3s ease-in-out;
         transition: 0.3s ease-in-out; }
       #menu ul li:active {
-        background-color: #e6e600;
+        background-color: #6bbd64;
         -webkit-transform: translateY(3%);
             -ms-transform: translateY(3%);
                 transform: translateY(3%); }
@@ -7566,9 +7565,10 @@ h3 {
 .phone-top {
   font-size: 1.5em;
   white-space: nowrap;
-  margin-top: 42px;
+  margin-top: 43px;
   font-weight: 300;
-  cursor: default; }
+  cursor: default;
+  text-align: center; }
   .phone-top img {
     width: 25px;
     color: #bdbdbd; }
@@ -7979,18 +7979,130 @@ h5 {
 /*==========  Desktop First  ==========*/
 /* Large Devices, Wide Screens */
 /* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .hamburger {
+    display: block;
+    text-align: center;
+    margin-top: 35px; }
+  #menu {
+    display: none; }
+  .phone-top {
+    font-size: 2em; }
+    .phone-top span {
+      font-size: 23px; }
+  .offer {
+    margin-top: 0; }
+    .offer h1 {
+      font-size: 80px;
+      line-height: 1.4;
+      text-align: center; }
+    .offer p {
+      font-size: 40px;
+      text-align: center; }
+  .social-top {
+    text-align: center; }
+    .social-top .fa-facebook-square, .social-top .fa-instagram {
+      margin: 0;
+      letter-spacing: 30px;
+      font-size: 4.125em; }
+    .social-top .fa-instagram {
+      letter-spacing: 0; } }
+
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
-  .hamburger {
-    display: none; } }
+  .logo-top {
+    text-align: center; }
+  .phone-top {
+    font-size: 1.8em; }
+    .phone-top span {
+      font-size: 21px; }
+  .offer {
+    margin-top: 0; }
+    .offer h1 {
+      font-size: 58px;
+      line-height: 1.4;
+      text-align: center; }
+    .offer p {
+      font-size: 30px;
+      text-align: center; } }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
-  /**/ }
+  .phone-top {
+    font-size: 1.7em; }
+    .phone-top span {
+      font-size: 20px; }
+  .offer {
+    margin-top: 0; }
+    .offer h1 {
+      font-size: 50px;
+      line-height: 1.4;
+      text-align: center; }
+    .offer p {
+      font-size: 30px;
+      text-align: center; }
+  .podser img {
+    width: 200px; }
+  .podser .pod1 {
+    top: 0;
+    left: 35%; }
+  .podser .pod2 {
+    left: 5%; }
+  .podser__text {
+    width: 100%;
+    margin-top: 175px;
+    font-size: 0.9em; }
+  section h2 {
+    font-size: 2.5125em;
+    margin: 50px 0; }
+  #preim p {
+    margin-top: 20px; }
+  .preim__item {
+    margin-bottom: 60px; }
+  .owl-prev, .owl-next {
+    display: none; }
+  .phone-bottom {
+    margin: 20px 0;
+    float: none;
+    margin-bottom: -20px; }
+  .top-text-p {
+    margin-left: 23px;
+    margin-top: 10px; }
+  .visible-xs-block {
+    text-align: left;
+    margin-bottom: 20px; }
+    .visible-xs-block .top-text-p {
+      margin-top: 0; }
+  .h2 {
+    margin-bottom: 20px; }
+  .footer {
+    text-align: center; }
+    .footer .copy {
+      margin: 0;
+      margin-top: 10px; }
+    .footer img {
+      margin: 10px 0; }
+  .vla {
+    width: 285px; }
+  .fa-map-marker {
+    float: none; }
+  .contacts__p {
+    text-align: center;
+    display: block; }
+  .contacts .contacts__address {
+    float: none; } }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 320px) {
-  /**/ }
+  .offer {
+    margin-top: 0; }
+    .offer h1 {
+      font-size: 50px;
+      line-height: 1.4;
+      text-align: center; }
+    .offer p {
+      font-size: 28px;
+      text-align: center; } }
 
 /*==========  Mobile First  ==========*/
 /* Custom, iPhone Retina */
