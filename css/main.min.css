@@ -8006,52 +8006,18 @@ h5 {
       letter-spacing: 30px;
       font-size: 4.125em; }
     .social-top .fa-instagram {
-      letter-spacing: 0; } }
-
-/* Small Devices, Tablets */
-@media only screen and (max-width: 768px) {
-  .logo-top {
-    text-align: center; }
-  .phone-top {
-    font-size: 1.8em; }
-    .phone-top span {
-      font-size: 21px; }
-  .offer {
-    margin-top: 0; }
-    .offer h1 {
-      font-size: 58px;
-      line-height: 1.4;
-      text-align: center; }
-    .offer p {
-      font-size: 30px;
-      text-align: center; } }
-
-/* Extra Small Devices, Phones */
-@media only screen and (max-width: 480px) {
-  .phone-top {
-    font-size: 1.7em; }
-    .phone-top span {
-      font-size: 20px; }
-  .offer {
-    margin-top: 0; }
-    .offer h1 {
-      font-size: 50px;
-      line-height: 1.4;
-      text-align: center; }
-    .offer p {
-      font-size: 30px;
-      text-align: center; }
+      letter-spacing: 0; }
   .podser img {
-    width: 200px; }
+    width: 270px; }
   .podser .pod1 {
-    top: 0;
-    left: 35%; }
-  .podser .pod2 {
-    left: 5%; }
+    top: 70px;
+    left: 55px; }
   .podser__text {
     width: 100%;
-    margin-top: 175px;
-    font-size: 0.9em; }
+    margin-top: 50px;
+    font-size: 1.1em; }
+  .cover {
+    height: 250px; }
   section h2 {
     font-size: 2.5125em;
     margin: 50px 0; }
@@ -8077,9 +8043,116 @@ h5 {
     margin-bottom: 20px; }
   .footer {
     text-align: center; }
-    .footer .copy {
+    .footer .copy1 {
       margin: 0;
       margin-top: 10px; }
+    .footer .copy2 {
+      margin: 0; }
+    .footer img {
+      margin: 10px 0; }
+  .marker {
+    text-align: center; }
+    .marker .fa-map-marker {
+      float: none; }
+  .contacts__p {
+    text-align: center;
+    display: block; }
+  .contacts .contacts__address {
+    float: none; }
+  .phone-bottom {
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 60px;
+    text-align: center; }
+  .education {
+    margin: 0; } }
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .logo-top {
+    text-align: center; }
+  .phone-top {
+    font-size: 1.8em; }
+    .phone-top span {
+      font-size: 21px; }
+  .offer {
+    margin-top: 0; }
+    .offer h1 {
+      font-size: 58px;
+      line-height: 1.4;
+      text-align: center; }
+    .offer p {
+      font-size: 30px;
+      text-align: center; }
+  .massage1 {
+    margin-bottom: 100px; }
+  .podser img {
+    width: 230px; }
+  .podser .pod1 {
+    top: 0;
+    left: 35%; }
+  .podser .pod2 {
+    left: 15%; }
+  .podser__text {
+    margin-top: 175px;
+    font-size: 1em; }
+  .cover {
+    height: 300px; } }
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .phone-top {
+    font-size: 1.7em; }
+    .phone-top span {
+      font-size: 20px; }
+  .offer {
+    margin-top: 0; }
+    .offer h1 {
+      font-size: 50px;
+      line-height: 1.4;
+      text-align: center; }
+    .offer p {
+      font-size: 30px;
+      text-align: center; }
+  .massage1 {
+    margin-bottom: 100px; }
+  .cover {
+    height: 350px; }
+  .podser img {
+    width: 200px; }
+  .podser .pod1 {
+    top: 0;
+    left: 35%; }
+  .podser .pod2 {
+    left: 5%; }
+  .podser__text {
+    width: 100%;
+    margin-top: 175px;
+    font-size: 1em; }
+  section h2 {
+    font-size: 2.5125em;
+    margin: 50px 0; }
+  #preim p {
+    margin-top: 20px; }
+  .preim__item {
+    margin-bottom: 60px; }
+  .owl-prev, .owl-next {
+    display: none; }
+  .phone-bottom {
+    margin: 20px 0;
+    float: none; }
+  .top-text-p {
+    margin-left: 23px;
+    margin-top: 10px; }
+  .visible-xs-block {
+    text-align: left;
+    margin-bottom: 20px; }
+    .visible-xs-block .top-text-p {
+      margin-top: 0; }
+  .h2 {
+    margin-bottom: 20px; }
+  .footer {
+    text-align: center; }
     .footer img {
       margin: 10px 0; }
   .vla {

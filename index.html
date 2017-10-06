@@ -24,23 +24,16 @@
 	<!-- iOS Safari -->
 	<meta name="apple-mobile-web-app-status-bar-style" content="#969696">
 
-	<style>body { opacity: 0; } html { background-color: #333; /*margin-right: 0px!important;*/ /*-webkit-text-size-adjust: none; overflow-y: scroll!important;*/ } </style>
+	<style>body { opacity: 0; } html { background-color: #333; } </style>
 
 </head>
 
 <body class="ishome">
 
-	<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v2.10";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-
 	<div class="preloader"><div class="pulse"></div></div>
-		
+
+	<div id="fb-root"></div>
+
 	<div id="my-header">
 
 		<header class="site-header" style="background-image: url(img/massage.jpg);">
@@ -54,11 +47,11 @@
 							</div>
 						</div>
 						<div class="col-md-6 col-md-push-0 col-sm-3 col-sm-push-6 col-xs-6">
-								<a href="#menu" class="hamburger hamburger--slider" aria-label="Menu" type="button">
-  								<span class="hamburger-box">
-    								<span class="hamburger-inner"></span>
-  								</span>
-								</a>
+							<a href="#menu" class="hamburger hamburger--slider" aria-label="Menu">
+								<span class="hamburger-box">
+									<span class="hamburger-inner"></span>
+								</span>
+							</a>
 							<nav id="menu">
 								<ul>
 									<li class="menu__item">
@@ -112,7 +105,7 @@
 			<div class="container">
 				<h2 class="wow fadeInUp" data-wow-offset="100">Услуги</h2>
 				<div class="row">
-					<div class="col-md-4">
+					<div class="col-md-4 col-sm-6">
 						<div class="massage_class massage1 wow fadeIn" data-wow-offset="100">
 							<img src="img/1.png" alt="Классический массаж">
 							<div class="zagolovok">
@@ -130,14 +123,14 @@
 								<a href="#test-popup" class="button open-popup-link">Подробнее</a>
 							</div>
 							<div id="test-popup" class="white-popup mfp-hide">
-							  <h4>Классический массаж</h4> 
-							  <p class="magnific">Рекомендуется в профилактических целях для оздоровления всего организма. Помогает при синдроме хронической усталости, нарушениях функций опорно&#8211;двигательного аппарата, нервной системы, обмена веществ и т.д.</p>
-							  <br>
+								<h4>Классический массаж</h4> 
+								<p class="magnific">Рекомендуется в профилактических целях для оздоровления всего организма. Помогает при синдроме хронической усталости, нарушениях функций опорно&#8211;двигательного аппарата, нервной системы, обмена веществ и т.д.</p>
+								<br>
 								<p class="magnific">В часовой массаж входит шейно-воротниковая зона, спина, ягодицы, задняя поверхность ног. Во время 2-х часового масажа прорабатывается все тело.</p>
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-4 col-sm-6">
 						<div class="massage_oz massage1 wow fadeIn" data-wow-offset="100">
 							<img src="img/2.png" alt="Оздоровительные процедуры">
 							<div class="zagolovok">
@@ -151,9 +144,10 @@
 								<a href="#test-popup2" class="button open-popup-link">Подробнее</a>
 							</div>
 							<div id="test-popup2" class="white-popup mfp-hide">
-							  <h4>Оздоровительные процедуры</h4> 
-							  <p class="magnific">Помогают при различных болевых синдромах: поясничные, головные, суставные, мышечные, боли на погоду, онемение конечностей, ВСД и т.д. Данные процедуры нормализируют мышечный тонус и функциональное состояние связок, корректно восстановливают все звенья опорно-двигательного аппарата и оптимизируют двигательные стереотипы. Выполняются без риска развития осложнений.</p>
-								<ul>«Оздоровительные процедуры» включают следующие техники:
+								<h4>Оздоровительные процедуры</h4> 
+								<p class="magnific">Помогают при различных болевых синдромах: поясничные, головные, суставные, мышечные, боли на погоду, онемение конечностей, ВСД и т.д. Данные процедуры нормализируют мышечный тонус и функциональное состояние связок, корректно восстановливают все звенья опорно-двигательного аппарата и оптимизируют двигательные стереотипы. Выполняются без риска развития осложнений.</p>
+								<p class="magnific">«Оздоровительные процедуры» включают следующие техники:</p>
+								<ul>
 									<li>- прикладная кинезиология;</li>
 									<li>- мягкие мануальные техники;</li>
 									<li>- терапия триггерных точек;</li>
@@ -163,7 +157,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-4 col-sm-6">
 						<div class="massage_rel massage1 wow fadeIn" data-wow-offset="100">
 							<img src="img/3.png" alt="Релаксирующий массаж">
 							<div class="zagolovok">
@@ -181,15 +175,13 @@
 								<a href="#test-popup3" class="button open-popup-link">Подробнее</a>
 							</div>
 							<div id="test-popup3" class="white-popup mfp-hide">
-							  <h4>Релакс-массаж</h4> 
-							  <p class="magnific">Для полноценной здоровой жизни человеку необходимо расслабляться. В моменты психического возбуждения и стресса мышцы непроизвольно напрягаются, а напряженные мышцы, в свою очередь, влияют на психоэмоциональное состояние. Если напряжение затягивается, то наступает переутомление, снижается работоспособность, формируется устойчивый стресс. В основе действия расслабляющего массажа лежит обратная закономерность – расслабленные массажем мышцы передают в мозг успокаивающие импульсы, что приводит к общему успокоению нервной системы и релаксации.
-							  </p>
+								<h4>Релакс-массаж</h4> 
+								<p class="magnific">Для полноценной здоровой жизни человеку необходимо расслабляться. В моменты психического возбуждения и стресса мышцы непроизвольно напрягаются, а напряженные мышцы, в свою очередь, влияют на психоэмоциональное состояние. Если напряжение затягивается, то наступает переутомление, снижается работоспособность, формируется устойчивый стресс. В основе действия расслабляющего массажа лежит обратная закономерность – расслабленные массажем мышцы передают в мозг успокаивающие импульсы, что приводит к общему успокоению нервной системы и релаксации.
+								</p>
 							</div>
 						</div>
 					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-4">
+					<div class="col-md-4 col-sm-6">
 						<div class="massage_sport massage1 wow fadeIn" data-wow-offset="100">
 							<img src="img/4.png" alt="Спортивный массаж">
 							<div class="zagolovok">
@@ -209,7 +201,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-4 col-sm-6">
 						<div class="massage_det massage1 wow fadeIn" data-wow-offset="100">
 							<img src="img/5.png" alt="Детский массаж">
 							<div class="zagolovok">
@@ -223,13 +215,13 @@
 								<a href="#test-popup5" class="button open-popup-link">Подробнее</a>
 							</div>
 							<div id="test-popup5" class="white-popup mfp-hide">
-							  <h4>Детский массаж</h4> 
-							  <p class="magnific">Необходим, в первую очередь, для поддержания физического здоровья ребёнка и, возможно, для устранения некоторых проблем в случае их существования. Процедура общего детского массажа проводится деткам от 1 до 12 лет.
-							  </p>
+								<h4>Детский массаж</h4> 
+								<p class="magnific">Необходим, в первую очередь, для поддержания физического здоровья ребёнка и, возможно, для устранения некоторых проблем в случае их существования. Процедура общего детского массажа проводится деткам от 1 до 12 лет.
+								</p>
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-4 col-sm-6">
 						<div class="massage_acel massage1 wow fadeIn" data-wow-offset="100">
 							<img src="img/6.png" alt="Антицеллюлитный массаж">
 							<div class="zagolovok">
@@ -243,15 +235,13 @@
 								<a href="#test-popup6" class="button open-popup-link">Подробнее</a>
 							</div>
 							<div id="test-popup6" class="white-popup mfp-hide">
-							  <h4>Антицеллюлитный массаж</h4> 
-							  <p class="magnific">Является особой техникой воздействия на тело с целью снижения и устранения проявлений целлюлита. Включает в себя приемы механического и рефлекторного воздействия на ткани в областях, пораженных целлюлитными отложениями.
-							  </p>
+								<h4>Антицеллюлитный массаж</h4> 
+								<p class="magnific">Является особой техникой воздействия на тело с целью снижения и устранения проявлений целлюлита. Включает в себя приемы механического и рефлекторного воздействия на ткани в областях, пораженных целлюлитными отложениями.
+								</p>
 							</div>
 						</div>
 					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-4">
+					<div class="col-md-4 col-sm-6">
 						<div class="massage_limf massage1 wow fadeIn" data-wow-offset="100">
 							<img src="img/7.png" alt="Лимфодренажный массаж">
 							<div class="zagolovok">
@@ -265,13 +255,13 @@
 								<a href="#test-popup7" class="button open-popup-link">Подробнее</a>
 							</div>
 							<div id="test-popup7" class="white-popup mfp-hide">
-							  <h4>Лимфодренажный массаж</h4> 
-							  <p class="magnific">Нормализует ток лимфы в организме, уменьшает отёки и укрепляет иммунитет. Процедура приятно расслабляет.
-							  </p>
+								<h4>Лимфодренажный массаж</h4> 
+								<p class="magnific">Нормализует ток лимфы в организме, уменьшает отёки и укрепляет иммунитет. Процедура приятно расслабляет.
+								</p>
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-4 col-sm-6">
 						<div class="massage_med massage1 wow fadeIn" data-wow-offset="100">
 							<img src="img/8.png" alt="Медовый массаж">
 							<div class="zagolovok">
@@ -285,13 +275,13 @@
 								<a href="#test-popup8" class="button open-popup-link">Подробнее</a>
 							</div>
 							<div id="test-popup8" class="white-popup mfp-hide">
-							  <h4>Медовый массаж</h4>
-							  <p class="magnific">Процедура, имеющая и эстетический, и оздоровительный аспекты. Помогает выводить токсины из кожи, улучшает циркуляцию крови, уменьшает проявления целлюлита.
-							  </p>
+								<h4>Медовый массаж</h4>
+								<p class="magnific">Процедура, имеющая и эстетический, и оздоровительный аспекты. Помогает выводить токсины из кожи, улучшает циркуляцию крови, уменьшает проявления целлюлита.
+								</p>
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-4 col-sm-6">
 						<div class="massage_ber massage1 wow fadeIn" data-wow-offset="100">
 							<img src="img/9.png" alt="Массаж для беременных">
 							<div class="zagolovok">
@@ -305,15 +295,13 @@
 								<a href="#test-popup9" class="button open-popup-link">Подробнее</a>
 							</div>
 							<div id="test-popup9" class="white-popup mfp-hide">
-							  <h4>Массаж для беременных</h4>
-							  <p class="magnific">Очень важно, чтобы в период беременности будущая мама нашла возможность позаботиться о себе, о своем здоровье и самочувствии, ведь тем самым она заботится и о будущем ребёнка. Скорректировать различные дискомфортные состояния, связанные с увеличением нагрузки на позвоночник, изменением гормонального фона и перепадами настроения помогает специальный массаж для беременных.
-							  </p>
+								<h4>Массаж для беременных</h4>
+								<p class="magnific">Очень важно, чтобы в период беременности будущая мама нашла возможность позаботиться о себе, о своем здоровье и самочувствии, ведь тем самым она заботится и о будущем ребёнка. Скорректировать различные дискомфортные состояния, связанные с увеличением нагрузки на позвоночник, изменением гормонального фона и перепадами настроения помогает специальный массаж для беременных.
+								</p>
 							</div>
 						</div>
 					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-4">
+					<div class="col-md-4 col-sm-6">
 						<div class="massage_rebo massage1 wow fadeIn" data-wow-offset="100">
 							<img src="img/10.png" alt="Массаж Ребозо">
 							<div class="zagolovok">
@@ -327,13 +315,13 @@
 								<a href="#test-popup10" class="button open-popup-link">Подробнее</a>
 							</div>
 							<div id="test-popup10" class="white-popup mfp-hide">
-							  <h4>Массаж с полотном «Ребозо»</h4>
-							  <p class="magnific">Чем-то похож на остеопатию, потому что здесь нет непосредственного контакта рук с телом. Это мягкая вибрационная техника основана на покачиваниях тела, когда внутренние процессы происходят сами, и именно тело выбирает, как ему отозваться на движения полотна.
-							  </p>
+								<h4>Массаж с полотном «Ребозо»</h4>
+								<p class="magnific">Чем-то похож на остеопатию, потому что здесь нет непосредственного контакта рук с телом. Это мягкая вибрационная техника основана на покачиваниях тела, когда внутренние процессы происходят сами, и именно тело выбирает, как ему отозваться на движения полотна.
+								</p>
 							</div>
 						</div>
 					</div>
-					<div class="col-md-8">
+					<div class="col-md-8 col-sm-12">
 						<div class="massage_nana massage1 wow fadeIn" data-wow-offset="100">
 							<img class="img-responsive" src="img/11.png" alt="Массаж+няня">
 							<div class="zagolovok">
@@ -347,9 +335,9 @@
 								<a href="#test-popup11" class="button open-popup-link">Подробнее</a>
 							</div>
 							<div id="test-popup11" class="white-popup mfp-hide">
-							  <h4>Массаж+няня</h4>
-							  <p class="magnific">Нужен массаж, а ребенка оставить не с кем? Вы можете воспользоваться услугой высококвалифицированой няни, пока проходите сеанс массажа. С ребенком могут поиграть в соседнем помещении либо погулять на улице (рядом есть детская площадка и парк).
-							  </p>
+								<h4>Массаж+няня</h4>
+								<p class="magnific">Нужен массаж, а ребенка оставить не с кем? Вы можете воспользоваться услугой высококвалифицированой няни, пока проходите сеанс массажа. С ребенком могут поиграть в соседнем помещении либо погулять на улице (рядом есть детская площадка и парк).
+								</p>
 							</div>
 						</div>
 					</div>
@@ -360,13 +348,13 @@
 			<div class="cover">
 				<div class="container">
 					<div class="row">
-						<div class="col-md-5 col-md-offset-1">
+						<div class="col-md-5 col-md-offset-1 col-sm-6">
 							<div class="podser">
 								<img class="pod1 img-responsive" src="img/podarok2.png" alt="Подарочный сертификат">
 								<img class="pod2 img-responsive" src="img/podarok1.png" alt="Подарочный сертификат">
 							</div>
 						</div>
-						<div class="col-md-6">
+						<div class="col-md-6 col-sm-6">
 							<p class="podser__text">
 								Подарочный сертификат на сеанс массажа — это замечательный подарок, который подойдёт всем и обрадует как Ваших друзей, так и родственников или вторую половинку.
 							</p>
@@ -378,171 +366,191 @@
 		<section id="preim">
 			<div class="container">
 				<h2>Преимущества</h2>
-					<div class="row">
-						<div class="col-md-3">
-							<div class="preim__item">
-								<div class="preim__item1">
-									<img src="img/icons8-1.png" alt="crown">
-									<p>Индивидуальный <br> подход</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-3">
-							<div class="preim__item">
-								<div class="preim__item2">
-									<img src="img/icons8-2.png" alt="crown">
-									<p>Построение <br> долгосрочных <br> отношений</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-3">
-							<div class="preim__item">
-								<div class="preim__item3">
-									<img src="img/icons8-3.png" alt="crown">
-									<p>Скидки <br> постоянным <br> клиентам</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-3">
-							<div class="preim__item">
-								<div class="preim__item4">
-									<img src="img/icons8-4.png" alt="crown">
-									<p>Возможность <br> выезда к клиенту</p>
-								</div>
+				<div class="row">
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="preim__item">
+							<div class="preim__item1">
+								<img src="img/icons8-1.png" alt="crown">
+								<p>Индивидуальный <br> подход</p>
 							</div>
 						</div>
 					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="preim__item">
+							<div class="preim__item2">
+								<img src="img/icons8-2.png" alt="crown">
+								<p>Построение <br> долгосрочных <br> отношений</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="preim__item">
+							<div class="preim__item3">
+								<img src="img/icons8-3.png" alt="crown">
+								<p>Скидки <br> постоянным <br> клиентам</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="preim__item">
+							<div class="preim__item4">
+								<img src="img/icons8-4.png" alt="crown">
+								<p>Возможность <br> выезда к клиенту</p>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</section>
 		<section id="id">
 			<div class="container">
 				<h2 class="h2">О себе</h2>
-					<div class="row">
-						<div class="col-md-6">
-							<div class="left">
-								<div class="row">
-									<div class="col-md-12 col-xs-12 visible-xs-block">
-										<div class="top-text">
-											<i class="fa fa-quote-right" aria-hidden="true"></i>
-											<p class="top-text-p">
-												Меня зовут Владимир Гладкий. <br> С помощью массажа и других оздоровительных процедур я делаю так, чтоб люди стали здоровее и красивее.
-											</p>
-											<i class="fa fa-quote-left" aria-hidden="true"></i>
-										</div>
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-md-12">
-										<div class="photo">
-											<img class="vla" src="img/vla.png" alt="vladimir">
-										</div>
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-md-12">
-										<div class="social social-bottom">
-											<a href="https://www.facebook.com/massage4thesoul/?hc_ref=ARTXQndrYBqgfiTcySEFGCvQtEH08rWXiPkA14-mBQDXg0QPZMuwSX3fLewod04guW4&fref=nf&pnref=story.unseen-section" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-											<a href="https://www.instagram.com/vladimir_massage_kiev/?hl=ru" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-										</div>	
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-md-12">
-										<div class="zoom-gallery owl-carousel owl-theme">
-											<a href="img/sert/1s.jpg" class="item magnificPopup img-responsive"><img src="img/thumb/1sm.jpg" alt="	certificate"></a>
-											<a href="img/sert/2s.jpg" class="item magnificPopup img-responsive"><img src="img/thumb/2sm.jpg" alt="	certificate"></a>
-											<a href="img/sert/3s.jpg" class="item magnificPopup img-responsive"><img src="img/thumb/3sm.jpg" alt="	certificate"></a>
-											<a href="img/sert/4s.jpg" class="item magnificPopup img-responsive"><img src="img/thumb/4sm.jpg" alt="	certificate"></a>
-											<a href="img/sert/5s.jpg" class="item magnificPopup img-responsive"><img src="img/thumb/5sm.jpg" alt="	certificate"></a>
-											<a href="img/sert/6s.jpg" class="item magnificPopup img-responsive"><img src="img/thumb/6sm.jpg" alt="	certificate"></a>
-											<a href="img/sert/7s.jpg" class="item magnificPopup img-responsive"><img src="img/thumb/7sm.jpg" alt="	certificate"></a>
-											<a href="img/sert/8s.jpg" class="item magnificPopup img-responsive"><img src="img/thumb/8sm.jpg" alt="	certificate"></a>
-											<a href="img/sert/9s.jpg" class="item magnificPopup img-responsive"><img src="img/thumb/9sm.jpg" alt="certificate"></a>
-										</div>
-									</div>
-								</div>
-								<h5>Контакты:</h5>
-								<div class="row">
-									<div class="col-md-5 col-sm-12 col-xs-12">
-										<div class="contacts">
-											<div class="marker">
-												<i class="fa fa-map-marker" aria-hidden="true"></i>
-											</div>
-											<div class="contacts__address">
-												<p class="contacts__p">г.Киев <br> ул.Тростянецкая <br> Дарницкий район</p>
-											</div>
-										</div>
-									</div>
-									<div class="col-md-7 col-sm-12 col-xs-12">
-										<div class="phone-bottom">
-										<i class="fa fa-phone"></i>
-										<img src="img/icons8-Viber2.svg" alt="viber">
-										<span>+38</span> (067) 769 25 97
-										</div>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="left">
+							<div class="row">
+								<div class="col-md-12 col-xs-12 visible-xs-block visible-sm-block">
+									<div class="top-text">
+										<i class="fa fa-quote-right" aria-hidden="true"></i>
+										<p class="top-text-p">
+											Меня зовут Владимир Гладкий. <br> С помощью массажа и других оздоровительных процедур я делаю так, чтоб люди стали здоровее и красивее.
+										</p>
+										<i class="fa fa-quote-left" aria-hidden="true"></i>
 									</div>
 								</div>
 							</div>
-						</div>
-						<div class="col-md-6">
-							<div class="right">
-								<div class="row">
-									<div class="col-md-12 col-xs-12 hidden-xs">
-										<div class="top-text">
-											<i class="fa fa-quote-right" aria-hidden="true"></i>
-											<p class="top-text-p">
-												Меня зовут Владимир Гладкий. <br> С помощью массажа и других оздоровительных процедур я делаю так, чтоб люди стали здоровее и красивее.
-											</p>
-											<i class="fa fa-quote-left" aria-hidden="true"></i>
+							<div class="row">
+								<div class="col-md-12">
+									<div class="photo">
+										<img class="vla" src="img/vla.png" alt="vladimir">
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12">
+									<div class="social social-bottom">
+										<a href="https://www.facebook.com/massage4thesoul/?hc_ref=ARTXQndrYBqgfiTcySEFGCvQtEH08rWXiPkA14-mBQDXg0QPZMuwSX3fLewod04guW4&fref=nf&pnref=story.unseen-section" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+										<a href="https://www.instagram.com/vladimir_massage_kiev/?hl=ru" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+									</div>	
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12">
+									<div class="zoom-gallery owl-carousel owl-theme">
+										<a href="img/sert/1s.jpg" class="item magnificPopup img-responsive"><img src="img/thumb/1sm.jpg" alt="	certificate"></a>
+										<a href="img/sert/2s.jpg" class="item magnificPopup img-responsive"><img src="img/thumb/2sm.jpg" alt="	certificate"></a>
+										<a href="img/sert/3s.jpg" class="item magnificPopup img-responsive"><img src="img/thumb/3sm.jpg" alt="	certificate"></a>
+										<a href="img/sert/4s.jpg" class="item magnificPopup img-responsive"><img src="img/thumb/4sm.jpg" alt="	certificate"></a>
+										<a href="img/sert/5s.jpg" class="item magnificPopup img-responsive"><img src="img/thumb/5sm.jpg" alt="	certificate"></a>
+										<a href="img/sert/6s.jpg" class="item magnificPopup img-responsive"><img src="img/thumb/6sm.jpg" alt="	certificate"></a>
+										<a href="img/sert/7s.jpg" class="item magnificPopup img-responsive"><img src="img/thumb/7sm.jpg" alt="	certificate"></a>
+										<a href="img/sert/8s.jpg" class="item magnificPopup img-responsive"><img src="img/thumb/8sm.jpg" alt="	certificate"></a>
+										<a href="img/sert/9s.jpg" class="item magnificPopup img-responsive"><img src="img/thumb/9sm.jpg" alt="certificate"></a>
+									</div>
+								</div>
+							</div>
+							<div class="row hidden-xs hidden-sm">
+								<h5>Контакты:</h5>
+								<div class="col-md-5 col-sm-12 col-xs-12">
+									<div class="contacts">
+										<div class="marker">
+											<i class="fa fa-map-marker" aria-hidden="true"></i>
+										</div>
+										<div class="contacts__address">
+											<p class="contacts__p">г.Киев <br> ул.Тростянецкая <br> Дарницкий район</p>
 										</div>
 									</div>
 								</div>
-								<div class="row">
-									<div class="col-md-12">
-										<div class="skills">
-											<ul>
-												<li>
-													помощь при различных болевых синдромах (поясничные, головные, суставные, мышечные, боли на погоду и т.д.)
-												</li>
-												<li>
-													общее оздоровление организма (улучшение физического и эмоционального состояния)
-												</li>
-												<li>
-													укрепление тела (массаж при правильном выполнении является пассивной физической нагрузкой)
-												</li>
-												<li>
-													эстетика тела (лишний вес, отёчности, целлюлит)
-												</li>
-												<li>
-													релакс (физическое и психическое расслабление)
-												</li>
-											</ul>
-										</div>
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-md-12">
-										<div class="education">
-											<h5>Образование:</h5>
-												<ul>
-													<li>
-														Национальный университет физического воспитания и спорта Украины (физическая реабилитация)
-													</li>
-													<li>
-														Школа массажа «Партнер Плюс»
-													</li>
-													<li>
-														Школа современного массажа «Инкорте»
-													</li>
-													<li>
-														Школа восстановительной и спортивной медицины «Реабилитолог»
-													</li>
-												</ul>
-										</div>
+								<div class="col-md-7 col-sm-12 col-xs-12">
+									<div class="phone-bottom">
+										<i class="fa fa-phone"></i>
+										<img src="img/icons8-Viber2.svg" alt="viber">
+										<span>+38</span> (067) 769 25 97
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
+					<div class="col-md-6">
+						<div class="right">
+							<div class="row">
+								<div class="col-md-12 col-xs-12 hidden-xs hidden-sm">
+									<div class="top-text">
+										<i class="fa fa-quote-right" aria-hidden="true"></i>
+										<p class="top-text-p">
+											Меня зовут Владимир Гладкий. <br> С помощью массажа и других оздоровительных процедур я делаю так, чтоб люди стали здоровее и красивее.
+										</p>
+										<i class="fa fa-quote-left" aria-hidden="true"></i>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12">
+									<div class="skills">
+										<ul>
+											<li>
+												помощь при различных болевых синдромах (поясничные, головные, суставные, мышечные, боли на погоду и т.д.)
+											</li>
+											<li>
+												общее оздоровление организма (улучшение физического и эмоционального состояния)
+											</li>
+											<li>
+												укрепление тела (массаж при правильном выполнении является пассивной физической нагрузкой)
+											</li>
+											<li>
+												эстетика тела (лишний вес, отёчности, целлюлит)
+											</li>
+											<li>
+												релакс (физическое и психическое расслабление)
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12">
+									<div class="education">
+										<h5>Образование:</h5>
+										<ul>
+											<li>
+												Национальный университет физического воспитания и спорта Украины (физическая реабилитация)
+											</li>
+											<li>
+												Школа массажа «Партнер Плюс»
+											</li>
+											<li>
+												Школа современного массажа «Инкорте»
+											</li>
+											<li>
+												Школа восстановительной и спортивной медицины «Реабилитолог»
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="row visible-xs-block visible-sm-block">
+								<h5>Контакты:</h5>
+								<div class="col-md-5 col-sm-12 col-xs-12">
+									<div class="contacts">
+										<div class="marker">
+											<i class="fa fa-map-marker" aria-hidden="true"></i>
+										</div>
+										<div class="contacts__address">
+											<p class="contacts__p">г.Киев <br> ул.Тростянецкая <br> Дарницкий район</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-7 col-sm-12 col-xs-12">
+									<div class="phone-bottom">
+										<i class="fa fa-phone"></i>
+										<img src="img/icons8-Viber2.svg" alt="viber">
+										<span>+38</span> (067) 769 25 97
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</section>
 		<section id="facebook">
