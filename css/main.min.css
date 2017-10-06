@@ -7609,7 +7609,7 @@ h3 {
   line-height: 2.3em;
   text-align: center;
   background-position: center;
-  margin-bottom: 60px; }
+  margin-bottom: 100px; }
 
 .zagolovok {
   margin-bottom: 10px; }
@@ -7978,6 +7978,16 @@ h5 {
 
 /*==========  Desktop First  ==========*/
 /* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  .preim__item {
+    font-size: 1.6em; }
+  .owl-prev, .owl-next {
+    top: -3px; }
+  .owl-carousel {
+    margin-bottom: 25px; }
+  .massage_nana img {
+    margin-bottom: 31px; } }
+
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
   .hamburger {
