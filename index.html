@@ -30,11 +30,13 @@
 
 <body class="ishome">
 
-	<div class="preloader"><div class="pulse"></div></div>
+	<div id="my-page">
 
-	<div id="fb-root"></div>
+		<div class="preloader"><div class="pulse"></div></div>
 
-	<div id="my-header">
+		<div id="fb-root"></div>
+
+		<div id="my-header">
 
 		<header class="site-header" style="background-image: url(img/massage.jpg);">
 
@@ -47,27 +49,40 @@
 							</div>
 						</div>
 						<div class="col-md-6 col-md-push-0 col-sm-3 col-sm-push-6 col-xs-6">
-							<a href="#menu" class="hamburger hamburger--slider" aria-label="Menu">
+							<a href="#my-menu" class="hamburger hamburger--slider">
 								<span class="hamburger-box">
 									<span class="hamburger-inner"></span>
 								</span>
 							</a>
-							<nav id="menu">
+							<nav id="my-menu">
 								<ul>
 									<li class="menu__item">
-										<a href="#" onclick="slowScroll('#uslugi')">Услуги</a>
-									</li>
-									<!-- <li class="menu__item">
-										<a href="#" onclick="slowScroll('#uslugi')">Цены</a>
-									</li> -->
-									<li class="menu__item">
-										<a href="#" onclick="slowScroll('#id')">О себе</a>
+										<a href="#uslugi">Услуги</a>
 									</li>
 									<li class="menu__item">
-										<a href="#" onclick="slowScroll('#id')">Контакты</a>
+										<a href="#id">О себе</a>
 									</li>
 									<li class="menu__item">
-										<a href="#" onclick="slowScroll('#facebook')">Отзывы</a>
+										<a href="#edu">Контакты</a>
+									</li>
+									<li class="menu__item">
+										<a href="#facebook">Отзывы</a>
+									</li>
+								</ul>  
+							</nav>
+							<nav class="menu">
+								<ul>
+									<li class="menu__item">
+										<a href="#uslugi">Услуги</a>
+									</li>
+									<li class="menu__item">
+										<a href="#id">О себе</a>
+									</li>
+									<li class="menu__item">
+										<a href="#soc">Контакты</a>
+									</li>
+									<li class="menu__item">
+										<a href="#facebook">Отзывы</a>
 									</li>
 								</ul>  
 							</nav>
@@ -428,7 +443,7 @@
 							</div>
 							<div class="row">
 								<div class="col-md-12">
-									<div class="social social-bottom">
+									<div id="soc" class="social social-bottom">
 										<a href="https://www.facebook.com/massage4thesoul/?hc_ref=ARTXQndrYBqgfiTcySEFGCvQtEH08rWXiPkA14-mBQDXg0QPZMuwSX3fLewod04guW4&fref=nf&pnref=story.unseen-section" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
 										<a href="https://www.instagram.com/vladimir_massage_kiev/?hl=ru" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
 									</div>	
@@ -509,7 +524,7 @@
 							</div>
 							<div class="row">
 								<div class="col-md-12">
-									<div class="education">
+									<div id="edu" class="education">
 										<h5>Образование:</h5>
 										<ul>
 											<li>
@@ -575,6 +590,7 @@
 			</div>
 		</div>
 	</div>
+</div>
 
 	<div class="top" title="Наверх"><i class="fa fa-angle-double-up"></i></div>
 
