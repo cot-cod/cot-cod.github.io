@@ -34,8 +34,6 @@
 
 		<div class="preloader"><div class="pulse"></div></div>
 
-		<div id="fb-root"></div>
-
 		<div id="my-header">
 
 		<header class="site-header" style="background-image: url(img/massage.jpg);">
@@ -49,43 +47,30 @@
 							</div>
 						</div>
 						<div class="col-md-6 col-md-push-0 col-sm-3 col-sm-push-6 col-xs-6">
-							<a href="#my-menu" class="hamburger hamburger--slider">
-								<span class="hamburger-box">
-									<span class="hamburger-inner"></span>
-								</span>
-							</a>
-							<nav id="my-menu">
-								<ul>
-									<li class="menu__item">
-										<a href="#uslugi">Услуги</a>
-									</li>
-									<li class="menu__item">
-										<a href="#osebe">О себе</a>
-									</li>
-									<li class="menu__item">
-										<a href="#edu">Контакты</a>
-									</li>
-									<li class="menu__item">
-										<a href="#facebook">Отзывы</a>
-									</li>
-								</ul>  
-							</nav>
-							<nav class="menu">
-								<ul>
-									<li class="menu__item">
-										<a href="#uslugi">Услуги</a>
-									</li>
-									<li class="menu__item">
-										<a href="#osebe">О себе</a>
-									</li>
-									<li class="menu__item">
-										<a href="#soc">Контакты</a>
-									</li>
-									<li class="menu__item">
-										<a href="#facebook">Отзывы</a>
-									</li>
-								</ul>  
-							</nav>
+							<div class="menu">
+								<div class="menu__icon">
+									<span></span>
+									<span></span>
+									<span></span>
+									<span></span>
+								</div>
+								<nav class="menu__links">
+									<ul>
+										<li >
+											<a class="menu__links-item" href="#" onclick="slowScroll ('#uslugi')">Услуги</a>
+										</li>
+										<li >
+											<a class="menu__links-item" href="#" onclick="slowScroll ('#osebe')">О себе</a>
+										</li>
+										<li >
+											<a class="menu__links-item" href="#" onclick="slowScroll ('#kon')">Контакты</a>
+										</li>
+										<li >
+											<a class="menu__links-item" href="#" onclick="slowScroll ('#facebook')">Отзывы</a>
+										</li>
+									</ul>  
+								</nav>
+							</div>
 						</div>
 						<div class="col-md-4 col-md-pull-0 col-sm-6 col-sm-pull-3 col-xs-12">
 							<div class="phone-top">
@@ -141,7 +126,7 @@
 								<h4>Классический массаж</h4> 
 								<p class="magnific">Рекомендуется в профилактических целях для оздоровления всего организма. Помогает при синдроме хронической усталости, нарушениях функций опорно&#8211;двигательного аппарата, нервной системы, обмена веществ и т.д.</p>
 								<br>
-								<p class="magnific">В часовой массаж входит шейно-воротниковая зона, спина, ягодицы, задняя поверхность ног. Во время 2-х часового масажа прорабатывается все тело.</p>
+								<p class="magnific">В часовой массаж входит шейно-воротниковая зона, спина, ягодицы, задняя поверхность ног. Во время 2-х часового массажа прорабатывается все тело.</p>
 							</div>
 						</div>
 					</div>
@@ -465,7 +450,7 @@
 								</div>
 							</div>
 							<div class="row hidden-xs hidden-sm">
-								<h5>Контакты:</h5>
+								<h5 id="kon">Контакты:</h5>
 								<div class="col-md-5 col-sm-12 col-xs-12">
 									<div class="contacts">
 										<div class="marker">
@@ -544,7 +529,7 @@
 								</div>
 							</div>
 							<div class="row visible-xs-block visible-sm-block">
-								<h5>Контакты:</h5>
+								<h5 id="kon">Контакты:</h5>
 								<div class="col-md-5 col-sm-12 col-xs-12">
 									<div class="contacts">
 										<div class="marker">
@@ -594,6 +579,8 @@
 </div>
 
 	<div class="top" title="Наверх"><i class="fa fa-angle-double-up"></i></div>
+
+	<div id="fb-root"></div>
 
 	<link rel="stylesheet" href="libs/bootstrap-grid/bootstrap-grid.css">
 	<link rel="stylesheet" href="css/main.min.css">
